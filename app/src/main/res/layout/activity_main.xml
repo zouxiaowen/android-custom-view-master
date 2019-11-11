@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_horizontal_scroll_view_ex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HorizontalScrollViewEx"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_pinned_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PinnedHeaderExpandableListView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_sticky_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StickyLayout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_capture_rect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CaptureRectView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_capture_square"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CaptureSquareView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_capture_cricle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CaptureCricleView"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
